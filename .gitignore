@@ -1,0 +1,7 @@
+.idea/
+.sbtopts
+project/plugins.sbt
+project/project/
+project/target/
+target/
+
