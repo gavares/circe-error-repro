@@ -9,12 +9,12 @@ when the compile target is run. The error can be resolved by moving the contents
 `CirceSerializers.scala` near the top of the file so that it looks like: 
 
 ```scala
-package sk.test
+package test
 import cats.syntax.either._
 import io.circe._
 import io.circe.generic.extras.semiauto._
 import io.circe.generic.extras.{Configuration => CirceCfg}
-import sk.test.Principal._
+import test.Principal._
 
 /**
   * Created by gavares on 2/12/17.
